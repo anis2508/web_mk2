@@ -21,14 +21,14 @@
     <?php
         $bilhuruf = strlen($pengalaman);
         echo "Ayat ini mengandungi $bilhuruf huruf";
-        ?>
+    ?>
 
     <br>
 
     <?php
         $perkataanrev = strrev($pengalaman);
         echo"Ayat terbalik: $perkataanrev";
-        ?>
+    ?>
         
     <?php
     } else {
