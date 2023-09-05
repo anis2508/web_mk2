@@ -15,16 +15,21 @@
         $bilperkataan =str_word_count($pengalaman);
         echo "Ayat ini mengangungi $bilperkataan patah perkataan";
     ?>
+
     <br>
+
     <?php
         $bilhuruf = strlen($pengalaman);
         echo "Ayat ini mengandungi $bilhuruf huruf";
         ?>
+
     <br>
+
     <?php
         $perkataanrev = strrev($pengalaman);
         echo"Ayat terbalik: $perkataanrev";
         ?>
+        
     <?php
     } else {
         echo "Tiada apa-apa";
