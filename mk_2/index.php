@@ -9,8 +9,8 @@
 </head>
 <body>
     <form action="papar.php" method="POST">
-        <label for="nama">Cerita Pengalaman anda:</label><br>
-        <textarea id="pengalaman" name="nama"></textarea>
+        <label for="pengalaman">Cerita Pengalaman anda:</label><br>
+        <textarea id="pengalaman" name="pengalaman"></textarea>
         <br>
         <input type="submit" value="Submit">
     </form>
